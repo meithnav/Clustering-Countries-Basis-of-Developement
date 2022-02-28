@@ -30,3 +30,15 @@ Data columns (total 10 columns):<br><br>
 9  &nbsp;&nbsp;&nbsp;&nbsp;      gdpp      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   int64<br>
 
 
+## CONCLUSION
+I have successfully classified all the countries into 'Need Help' , 'Might Need Help' and 'Donot Need Help'.
+1. Most of the American and European Countries may not need help.
+2. Most of the African countries and Middle Eastern countries like Iraq, Yemen , Afghanisthan , Pakisthan
+requires help.
+3. Most of the remaining Asian Countries Might require help, lying in between the two classes.
+Thus, this completes my analysis with a KMeans Model of K=3 having distortion score(700.33) for classifying our Country.csv dataset.
+
+## IMPROVEMENTS :
+Here I haven't considered other Unsupervised Models like Mean Shift and DBSCAN. Also only have been considered PCA for Dimensional Reduction could have improved by Kernel PCA or MDS. Also, for data transformation haven't tried other methods like boxcox for normalizing the skewed features.
+ 
+
