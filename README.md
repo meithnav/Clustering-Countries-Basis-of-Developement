@@ -8,7 +8,8 @@ Our primary goal is to develop a model that helps in clustering of countries so 
 
 The overview of the steps to perform:
 1) Data Visualization
-2) Data Cleaning A) Eliminate NA/Null Data Records B) Feature Engineering . 3) Tranforming and Scaling of Data
+2) Data Cleaning A) Eliminate NA/Null Data Records B) Feature Engineering . 
+3) Tranforming and Scaling of Data
 4) Run Unsupervised Models
 5) Optimize the best model
 6) Predict Results and Best Model
@@ -31,14 +32,10 @@ Data columns (total 10 columns):<br><br>
 
 
 ## CONCLUSION
-I have successfully classified all the countries into 'Need Help' , 'Might Need Help' and 'Donot Need Help'.
+I have successfully classified all the countries into 'Needs Help' , 'Might Need Help' and 'Do Not Need Help'.
 1. Most of the American and European Countries may not need help.
-2. Most of the African countries and Middle Eastern countries like Iraq, Yemen , Afghanisthan , Pakisthan
-requires help.
+2. Most of the African countries and Middle Eastern countries like Iraq, Yemen , or countries like Afghanisthan , Pakisthan require help.
 3. Most of the remaining Asian Countries Might require help, lying in between the two classes.
-Thus, this completes my analysis with a KMeans Model of K=3 having distortion score(700.33) for classifying our Country.csv dataset.
 
-## IMPROVEMENTS :
-Here I haven't considered other Unsupervised Models like Mean Shift and DBSCAN. Also only have been considered PCA for Dimensional Reduction could have improved by Kernel PCA or MDS. Also, for data transformation haven't tried other methods like boxcox for normalizing the skewed features.
- 
+Thus, this completes our analysis with a KMeans Model of K=3 having distortion (15.22) for classifying our Country.csv dataset.
 
